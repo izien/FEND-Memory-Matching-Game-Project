@@ -52,6 +52,7 @@ document.body.onload = startGame();
 
 // function to start a new play
 function startGame(){
+     openedCards = []; //restart bug fixed
     // shuffle deck
     cards = shuffle(cards);
     // remove all exisiting classes from each card
